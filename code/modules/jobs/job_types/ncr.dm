@@ -1086,7 +1086,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/ammo_box/magazine/m9mm = 2,
 		/obj/item/melee/onehanded/knife/survival = 1,
 		/obj/item/storage/firstaid/regular = 1,
-		/obj/item/book/granter/trait/chemistry = 1,
+		/obj/item/book/granter/asdasdasdasdait/chemistry = 1,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		)
 
