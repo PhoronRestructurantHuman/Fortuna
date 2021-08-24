@@ -24,7 +24,7 @@
 //		new /datum/data/mining_equipment("Fulton Beacon",				/obj/item/fulton_core,												400),
 //		new /datum/data/mining_equipment("Shelter Capsule",				/obj/item/survivalcapsule,											400),
 		new /datum/data/mining_equipment("Survival Knife",				/obj/item/melee/onehanded/knife/survival,							450),
-		new /datum/data/mining_equipment("GAR Meson Scanners",			/obj/item/clothing/glasses/meson/gar,								500),
+		new /datum/data/mining_equipment("Meson Scanners",				/obj/item/clothing/glasses/meson,									500),
 		new /datum/data/mining_equipment("Explorer's Webbing",			/obj/item/storage/belt/mining,										500),
 		new /datum/data/mining_equipment("Larger Ore Bag",				/obj/item/storage/bag/ore/large,									500),
 		new /datum/data/mining_equipment("500 Point Transfer Card",		/obj/item/card/mining_point_card/mp500,								500),
@@ -73,6 +73,7 @@
 //		new /datum/data/mining_equipment("Miner Full Replacement",		/obj/item/storage/backpack/duffelbag/mining_cloned,					3000),
 		new /datum/data/mining_equipment("Premium Accelerator",			/obj/item/gun/energy/kinetic_accelerator/premiumka,					8000),
 		new /datum/data/mining_equipment("Kinetic Glaive",				/obj/item/kinetic_crusher/glaive,									2250),
+		new /datum/data/mining_equipment("Diamond Drill",				/obj/item/pickaxe/drill/diamonddrill,								3000),
 		)
 
 /datum/data/mining_equipment
