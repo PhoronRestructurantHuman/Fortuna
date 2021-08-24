@@ -270,6 +270,7 @@
 #define TRAIT_GUNSMITH_THREE    "gunsmith_three"
 #define TRAIT_GUNSMITH_FOUR     "gunsmith_four"
 #define TRAIT_MASTER_GUNSMITH   "master_gunsmith"
+#define TRAIT_HANDY				"Handyman"
 
 
 //non-mob traits
