@@ -375,3 +375,12 @@
 	gain_text = "<span class='notice'>You feel yourself discovering the most intricate secrets of the human body.</span>"
 	lose_text = "<span class='danger'>You forget your advanced surgical knowledge.</span>"
 	locked = TRUE
+
+/datum/quirk/handyman
+	name = "Handyman"
+	desc = "You've been tinkering with junk, learning how to both repair and reproduce it with the correct spares."
+	value = 2
+	mob_trait = TRAIT_HANDY
+	gain_text = "<span class='notice'>You're one with the junk around you.</span>"
+	lose_text = "<span class='danger'>You're mortal yet again, having lost the greater understanding of junk.</span>"
+	locked = TRUE
