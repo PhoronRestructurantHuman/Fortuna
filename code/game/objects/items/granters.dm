@@ -861,6 +861,14 @@
 	traitname = "gunslinging"
 	remarks = list("Engravings offer no tactical advantage whatsoever!", "I love to reload during battle.", "There's nothing like the feeling of slamming a long silver bullet into a well greased chamber.", "It doesn't feel right to shoot an unarmed man, but you get over it.", "He was pretty good, but I was better. At least, so I thought.", "The moment any truth is passed on, it starts turning into fiction. The problem is, fiction inspires people more than facts.")
 
+/obj/item/book/granter/trait/chemistry
+	name = "Handyman's guide"
+	desc = "This magazine will teach you all you need to know about crafting basic items."
+	oneuse = TRUE
+	granted_trait = TRAIT_HANDY
+	traitname = "handyman"
+	remarks = list("Don't stick your fork in the toaster.", "Don't touch the glowy green stuff.", "Use the correct tools, brute force will most likely break the object.", "Wear proper safety equipment!")
+	crafting_recipe_types = list(/datum/crafting_recipe/jet, /datum/crafting_recipe/turbo, /datum/crafting_recipe/psycho, /datum/crafting_recipe/medx, /datum/crafting_recipe/buffout)
 
 /*
 /obj/item/book/granter/trait/iron_fist
