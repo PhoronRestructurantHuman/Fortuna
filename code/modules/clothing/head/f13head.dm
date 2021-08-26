@@ -971,3 +971,10 @@
 	desc = "(II) A thick tanned leather hat, with a Montana Peak crease."
 	icon_state = "ranger_tan_hat"
 	item_state = "ranger_tan_hat"
+
+//den
+
+obj/item/clothing/head/f13/headband/oyabun
+	name = "oyabun headband"
+	desc = "Headband of the oyabun"
+	icon_state = "platedheadbandred"
