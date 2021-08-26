@@ -1512,3 +1512,4 @@
 	item_state = "scoutclothes"
 	item_color = "scoutclothes"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
+	
