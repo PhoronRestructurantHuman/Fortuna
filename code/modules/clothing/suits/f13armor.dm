@@ -959,18 +959,19 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	icon_state = "masonsuit"
 	item_state = "masonsuit"
 
-/obj/item/clothing/suit/armor/f13/medium/duster_renegade
-	name = "Vagabond's coat"
+/obj/item/clothing/suit/armor/f13/masonsuit/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
+/obj/item/clothing/suit/armor/f13/oyabuncoat
+	name = "Oyabun coat"
 	desc = "Eat pant"
 	icon = 'icons/fallout/clothing/armored_medium.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
 	icon_state = "duster_renegade"
 	item_state = "duster_renegade"
-	armor = list("tier" = 7, "energy" = 55, "bomb" = 45, "bio" = 45, "rad" = 45, "fire" = 45, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/masonsuit/Initialize()
-	. = ..()
-	AddComponent(/datum/component/armor_plate)
+	armor = list("tier" = 5, "energy" = 55, "bomb" = 45, "bio" = 45, "rad" = 45, "fire" = 45, "acid" = 0)
+	slowndown = -0.1
 
 //THE GRAVEYARD
 //UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING
