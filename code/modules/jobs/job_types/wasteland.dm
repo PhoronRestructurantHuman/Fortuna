@@ -858,6 +858,11 @@ Raider
 
 	outfit = /datum/outfit/job/wasteland/f13mobboss
 
+	loadout_options = list(
+		/datum/outfit/loadout/oyabun,
+		/datum/outfit/loadout/mobboss,
+		)
+
 	access = list(ACCESS_DEN)
 	minimal_access = list(ACCESS_DEN)
 	matchmaking_allowed = list(
@@ -877,24 +882,16 @@ Raider
 	jobtype = /datum/job/wasteland/f13mobboss
 
 	id = /obj/item/card/id/dentattoo
-	belt = /obj/item/storage/belt/military/assault
 	ears = /obj/item/radio/headset/headset_den
 	shoes = /obj/item/clothing/shoes/laceup
-	l_pocket = /obj/item/melee/onehanded/knife/switchblade
-	r_pocket = /obj/item/flashlight/seclite
 	uniform = /obj/item/clothing/under/suit/white
-	suit = /obj/item/clothing/suit/armor/f13/combat/mk2/raider
 	backpack =	/obj/item/storage/backpack/satchel
 	satchel = 	/obj/item/storage/backpack/satchel
-	gloves = /obj/item/clothing/gloves/color/white
-	head = /obj/item/clothing/head/caphat/beret/white
-	mask = /obj/item/clothing/mask/bandana/durathread
-	suit_store = /obj/item/gun/ballistic/automatic/smg/p90
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak=1, \
 		/obj/item/restraints/handcuffs=1, \
-		/obj/item/ammo_box/magazine/m10mm_p90=2, \
 		/obj/item/storage/bag/money/small/raider/mobboss)
+
 
 /datum/outfit/job/wasteland/f13mobboss/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -911,6 +908,20 @@ Raider
 		GLOB.all_gangs |= DM
 		DM.add_member(H)
 		H.gang = DM
+
+/datum/outfit/loadout/mobboss
+	belt = /obj/item/storage/belt/military/assault
+	suit = /obj/item/clothing/suit/armor/f13/combat/mk2/raider
+	gloves = /obj/item/clothing/gloves/color/white
+	head = /obj/item/clothing/head/caphat/beret/white
+	mask = /obj/item/clothing/mask/bandana/durathread
+	suit_store = /obj/item/gun/ballistic/automatic/smg/p90
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/m10mm_p90=2, \)
+
+/datum/outfit/loadout/oyabun
+	suit = /obj/item/clothing/suit/armor/f13/oyabuncoat
+	gloves = /obj/item/clothing/gloves/f13/handwraps
 
 datum/job/wasteland/f13dendoctor
 	title = "Den Doctor"
