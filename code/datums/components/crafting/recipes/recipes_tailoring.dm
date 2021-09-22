@@ -410,6 +410,16 @@
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
+/datum/crafting_recipe/riderw
+	name = "Rider Helmet, Reinforced"
+	result = /obj/item/clothing/head/f13/riderw
+	reqs = list(/obj/item/clothing/head/helmet/knight/f13/rider = 1,
+				/obj/item/stack/crafting/goodparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
 //Greaves
 
 /datum/crafting_recipe/plateboot
